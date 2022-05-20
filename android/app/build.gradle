@@ -35,7 +35,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '1.9'
+        jvmTarget = '1.8'
     }
 
     sourceSets {
@@ -44,8 +44,8 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.nelcael.agendamento_consulta_nelcael"
-        minSdkVersion 19
+        applicationId "com.example.agendamento_consulta"
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
@@ -65,5 +65,5 @@ flutter {
 }
 
 dependencies {
-    implementation "androidx.multidex:multidex:2.0.1"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }

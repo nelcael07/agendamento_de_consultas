@@ -1,5 +1,5 @@
-import 'package:agendamento_consulta_nelcael/models/pacients/pacients.dart';
-import 'package:agendamento_consulta_nelcael/models/pacients/pacients_service.dart';
+import 'package:agendamento_consulta/model/pacients/pacients.dart';
+import 'package:agendamento_consulta/model/pacients/pacients_service.dart';
 import 'package:flutter/material.dart';
 
 class PacientsScreen extends StatelessWidget {

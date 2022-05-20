@@ -1,6 +1,6 @@
 {
-    "name": "agendamento_consulta_nelcael",
-    "short_name": "agendamento_consulta_nelcael",
+    "name": "agendamento_consulta",
+    "short_name": "agendamento_consulta",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

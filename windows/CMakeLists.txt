@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(agendamento_consulta_nelcael LANGUAGES CXX)
+project(agendamento_consulta LANGUAGES CXX)
 
-set(BINARY_NAME "agendamento_consulta_nelcael")
+set(BINARY_NAME "agendamento_consulta")
 
 cmake_policy(SET CMP0063 NEW)
 

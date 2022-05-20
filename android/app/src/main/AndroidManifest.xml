@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nelcael.agendamento_consulta_nelcael">
+    package="com.example.agendamento_consulta">
    <application
-        android:label="agendamento_consulta_nelcael"
+        android:label="agendamento_consulta"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

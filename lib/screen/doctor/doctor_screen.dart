@@ -1,5 +1,5 @@
-import 'package:agendamento_consulta_nelcael/models/doctor/doctor.dart';
-import 'package:agendamento_consulta_nelcael/models/doctor/doctor_service.dart';
+import 'package:agendamento_consulta/model/doctor/doctor.dart';
+import 'package:agendamento_consulta/model/doctor/doctor_service.dart';
 import 'package:flutter/material.dart';
 
 class DoctorScreen extends StatelessWidget {
@@ -177,5 +177,4 @@ class DoctorScreen extends StatelessWidget {
       ),
     );
   }
-
 }

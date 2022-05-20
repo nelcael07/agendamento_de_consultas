@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:agendamento_consulta_nelcael/models/list/list.dart';
-import 'package:agendamento_consulta_nelcael/models/list/list_service.dart';
+import 'package:agendamento_consulta/model/list/list.dart';
+import 'package:agendamento_consulta/model/list/list_service.dart';
 
 class ListScreen extends StatelessWidget {
   ListScreen({Key? key}) : super(key: key);
@@ -147,8 +147,7 @@ class ListScreen extends StatelessWidget {
                         medicoController.text,
                         exames_solicitadosController.text,
                         medicamentosController.text,
-                        data_retornoController.text
-                    );
+                        data_retornoController.text);
                     listService.addList(list);
                   }
                 },
@@ -160,6 +159,4 @@ class ListScreen extends StatelessWidget {
       ),
     );
   }
-
-  
 }

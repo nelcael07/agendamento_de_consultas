@@ -1,4 +1,4 @@
-import 'package:agendamento_consulta_nelcael/utils/itens_menu_screen.dart';
+import 'package:agendamento_consulta/utils/itens_menu_screen.dart';
 import 'package:flutter/material.dart';
 
 class Menu extends StatelessWidget {
@@ -46,17 +46,16 @@ class Menu extends StatelessWidget {
   }
 
   callUnit(BuildContext context, int index) {
-    if (index == 0){
+    if (index == 0) {
       Navigator.of(context).pushNamed("/paciente");
-    }else{
+    } else {
       if (index == 1) {
         Navigator.of(context).pushNamed("/doutor");
-      }else{
-        if(index == 2){
+      } else {
+        if (index == 2) {
           Navigator.of(context).pushNamed("/lista");
         }
       }
     }
-    
   }
 }

@@ -1,6 +1,5 @@
-
-import 'package:agendamento_consulta_nelcael/screen/firspage/first_page.dart';
-import 'package:agendamento_consulta_nelcael/screen/menu/menu.dart';
+import 'package:agendamento_consulta/screen/firspage/first_page.dart';
+import 'package:agendamento_consulta/screen/menu/menu.dart';
 
 import 'package:flutter/material.dart';
 
@@ -35,8 +34,10 @@ class _HomeScreenState extends State<HomeScreen> {
         currentIndex: _selectedPage,
         onTap: _onItemTapped,
         items: const [
-          BottomNavigationBarItem(icon: const Icon(Icons.home), label: "Início"),
-          BottomNavigationBarItem(icon: const Icon(Icons.list_alt), label: "Menu"),
+          BottomNavigationBarItem(
+              icon: const Icon(Icons.home), label: "Início"),
+          BottomNavigationBarItem(
+              icon: const Icon(Icons.list_alt), label: "Menu"),
         ],
       ),
     );
